@@ -1,0 +1,356 @@
+export const translations = {
+  en: {
+    siteTitle: "Rajasthan RTO Agent - Professional Vehicle & License Services",
+    brand: "Rajasthan RTO Agent",
+    nav: {
+      home: "Home",
+      about: "About",
+      services: "Services",
+      why: "Why Us",
+      rto: "Rajasthan RTO Info",
+      testimonials: "Testimonials",
+      contact: "Contact",
+      call: "Call",
+      whatsapp: "WhatsApp",
+    },
+    hero: {
+      headline: "Hassle-Free RTO Services in Rajasthan",
+      sub: "Expert guidance for vehicle registration, driving licenses, permits, taxes, and more. Fast, transparent, and reliable.",
+      primaryCta: "Contact Us",
+      secondaryCta: "View Services",
+      trustBadge: "Trusted RTO Partner",
+      trustText:
+        "Transparent pricing, guided documentation, and faster approvals.",
+      stats: [
+        { label: "Services", value: "13+" },
+        { label: "Years Experience", value: "10+" },
+        { label: "Cities Covered", value: "25+" },
+        { label: "Avg. Turnaround", value: "48h" },
+      ],
+    },
+    about: {
+      title: "About Us",
+      text: "We are a trusted RTO agent in Rajasthan with years of experience helping clients with all Regional Transport Office needs. From new registrations to permits and challans, we handle everything efficiently so you save time and avoid hassle.",
+    },
+    services: {
+      title: "Our Services",
+      list: [
+        {
+          title: "Driving Licence",
+          desc: "New, renewal, duplicate, and international driving license services.",
+        },
+        {
+          title: "Re-registration",
+          desc: "Re-registration of vehicles transferred to Rajasthan.",
+        },
+        {
+          title: "New Vehicle Registration",
+          desc: "Complete registration for new cars, bikes, and commercial vehicles.",
+        },
+        {
+          title: "Rajasthan Permit",
+          desc: "State permits for commercial vehicles in Rajasthan.",
+        },
+        {
+          title: "All India Permit",
+          desc: "National permits for tourist and goods vehicles.",
+        },
+        {
+          title: "Fitness",
+          desc: "Vehicle fitness certificate issuance and renewal.",
+        },
+        {
+          title: "Tax Clear Certificate",
+          desc: "Road tax clearance and payment assistance.",
+        },
+        { title: "Online Pay Tax", desc: "Help with online road tax payment." },
+        {
+          title: "NOC",
+          desc: "No Objection Certificate for vehicle transfer.",
+        },
+        {
+          title: "E-Challan / Challan Compound",
+          desc: "Pay or compound traffic challans quickly.",
+        },
+        {
+          title: "Ownership Transfer",
+          desc: "Smooth transfer of vehicle ownership.",
+        },
+        {
+          title: "Duplicate RC",
+          desc: "Issue duplicate Registration Certificate.",
+        },
+        { title: "HP Termination", desc: "Hypothecation removal from RC." },
+      ],
+    },
+    why: {
+      title: "Why Choose Us",
+      items: [
+        "10+ Years Experience",
+        "Transparent Pricing",
+        "Fast Processing",
+        "100% Compliance",
+        "Dedicated Support",
+      ],
+    },
+    rto: {
+      title: "All Rajasthan RTO Offices",
+      intro: "List of major RTO codes and locations in Rajasthan:",
+      headers: { code: "RTO Code", city: "City" },
+      data: [
+        { code: "RJ-01", city: "Ajmer" },
+        { code: "RJ-02", city: "Alwar" },
+        { code: "RJ-05", city: "Bharatpur" },
+        { code: "RJ-07", city: "Bikaner" },
+        { code: "RJ-09", city: "Jhalawar" },
+        { code: "RJ-14", city: "Jaipur" },
+        { code: "RJ-17", city: "Kishangarh" },
+        { code: "RJ-18", city: "Jodhpur" },
+        { code: "RJ-19", city: "Kota" },
+        { code: "RJ-20", city: "Sikar" },
+        { code: "RJ-21", city: "Bundi" },
+        { code: "RJ-22", city: "Banswara" },
+        { code: "RJ-23", city: "Dausa" },
+        { code: "RJ-24", city: "Baran" },
+        { code: "RJ-25", city: "Dholpur" },
+        { code: "RJ-27", city: "Udaipur" },
+        { code: "RJ-29", city: "Nagaur" },
+        { code: "RJ-32", city: "Jaisalmer" },
+        { code: "RJ-34", city: "Hanumangarh" },
+        { code: "RJ-36", city: "Chittorgarh" },
+      ],
+    },
+    testimonials: {
+      title: "Testimonials",
+      list: [
+        {
+          name: "Rahul Sharma",
+          text: "Got my NOC in 3 days. Clear updates and no hidden charges.",
+        },
+        {
+          name: "Priya Singh",
+          text: "Professional team—handled my license renewal smoothly.",
+        },
+        {
+          name: "Amit Verma",
+          text: "Permit renewal was seamless and they explained every step.",
+        },
+        {
+          name: "Neha Gupta",
+          text: "Responsive support and quick resolution for my tax clearance.",
+        },
+        {
+          name: "Sandeep Mehta",
+          text: "Ownership transfer finished earlier than promised. Trustworthy team.",
+        },
+      ],
+    },
+    contact: {
+      title: "Contact Us",
+      form: {
+        name: "Name",
+        email: "Email",
+        phone: "Phone",
+        service: "Select Service",
+        message: "Message",
+        submit: "Send Message",
+        success: "Thank you! We will contact you soon.",
+        error: "Failed to send message, please try again.",
+        errors: {
+          required: "This field is required",
+          email: "Please enter a valid email",
+          phone: "Enter a valid 10-digit phone number",
+        },
+      },
+      address: "Jodhpur, Rajasthan",
+      addressLabel: "Address",
+      phoneLabel: "Call",
+      whatsappLabel: "WhatsApp",
+      emailLabel: "Email",
+      phoneNumber: "+91 12345 67890",
+      whatsappNumber: "+91 12345 67890",
+      email: "contact@rtoagent.in",
+    },
+    footer: {
+      rights: "All rights reserved.",
+    },
+  },
+  hi: {
+    siteTitle: "राजस्थान आरटीओ एजेंट - व्यावसायिक वाहन एवं लाइसेंस सेवाएं",
+    brand: "राजस्थान आरटीओ एजेंट",
+    nav: {
+      home: "मुखपृष्ठ",
+      about: "हमारे बारे में",
+      services: "सेवाएं",
+      why: "क्यों चुनें",
+      rto: "राजस्थान आरटीओ जानकारी",
+      testimonials: "प्रशंसापत्र",
+      contact: "संपर्क",
+      call: "कॉल",
+      whatsapp: "व्हाट्सऐप",
+    },
+    hero: {
+      headline: "राजस्थान में परेशानी-मुक्त आरटीओ सेवाएं",
+      sub: "वाहन पंजीकरण, ड्राइविंग लाइसेंस, परमिट, टैक्स और अधिक के लिए विशेषज्ञ मार्गदर्शन। तेज़, पारदर्शी और विश्वसनीय।",
+      primaryCta: "संपर्क करें",
+      secondaryCta: "सेवाएं देखें",
+      trustBadge: "विश्वसनीय आरटीओ पार्टनर",
+      trustText: "पारदर्शी मूल्य, मार्गदर्शित दस्तावेज़ीकरण और तेज़ अनुमोदन।",
+      stats: [
+        { label: "सेवाएं", value: "13+" },
+        { label: "अनुभव (वर्ष)", value: "10+" },
+        { label: "कवरेज शहर", value: "25+" },
+        { label: "औसत समय", value: "48घं" },
+      ],
+    },
+    about: {
+      title: "हमारे बारे में",
+      text: "हम राजस्थान में एक विश्वसनीय आरटीओ एजेंट हैं जिनके पास सभी क्षेत्रीय परिवहन कार्यालय आवश्यकताओं में ग्राहकों की मदद करने का वर्षों का अनुभव है। नए पंजीकरण से लेकर परमिट और चालान तक, हम सब कुछ कुशलतापूर्वक संभालते हैं ताकि आप समय बचाएं और परेशानी से बचें।",
+    },
+    services: {
+      title: "हमारी सेवाएं",
+      list: [
+        {
+          title: "ड्राइविंग लाइसेंस",
+          desc: "नया, नवीनीकरण, डुप्लिकेट और अंतरराष्ट्रीय लाइसेंस सेवाएं।",
+        },
+        {
+          title: "पुनः पंजीकरण",
+          desc: "राजस्थान में स्थानांतरित वाहनों का पुनः पंजीकरण।",
+        },
+        {
+          title: "नया वाहन पंजीकरण",
+          desc: "नए कार, बाइक और वाणिज्यिक वाहनों का पूर्ण पंजीकरण।",
+        },
+        {
+          title: "राजस्थान परमिट",
+          desc: "राजस्थान में वाणिज्यिक वाहनों के लिए राज्य परमिट।",
+        },
+        {
+          title: "ऑल इंडिया परमिट",
+          desc: "पर्यटक और माल वाहनों के लिए राष्ट्रीय परमिट।",
+        },
+        {
+          title: "फिटनेस",
+          desc: "वाहन फिटनेस प्रमाणपत्र जारी करना और नवीनीकरण।",
+        },
+        {
+          title: "टैक्स क्लियर सर्टिफिकेट",
+          desc: "सड़क कर समाशोधन और भुगतान सहायता।",
+        },
+        {
+          title: "ऑनलाइन टैक्स भुगतान",
+          desc: "ऑनलाइन रोड टैक्स भुगतान में सहायता।",
+        },
+        {
+          title: "एनओसी",
+          desc: "वाहन स्थानांतरण के लिए नो ऑब्जेक्शन सर्टिफिकेट।",
+        },
+        {
+          title: "ई-चालान / चालान निपटान",
+          desc: "ट्रैफिक चालान का भुगतान या निपटान तेजी से।",
+        },
+        {
+          title: "स्वामित्व हस्तांतरण",
+          desc: "वाहन स्वामित्व का सुगम हस्तांतरण।",
+        },
+        {
+          title: "डुप्लिकेट आरसी",
+          desc: "डुप्लिकेट पंजीकरण प्रमाणपत्र जारी करना।",
+        },
+        { title: "एचपी समाप्ति", desc: "आरसी से हाइपोथेकशन हटाना।" },
+      ],
+    },
+    why: {
+      title: "हमें क्यों चुनें",
+      items: [
+        "10+ वर्षों का अनुभव",
+        "पारदर्शी मूल्य निर्धारण",
+        "तेजी से प्रक्रिया",
+        "100% अनुपालन",
+        "समर्पित सहायता",
+      ],
+    },
+    rto: {
+      title: "राजस्थान के सभी आरटीओ कार्यालय",
+      intro: "राजस्थान में प्रमुख आरटीओ कोड और स्थान की सूची:",
+      headers: { code: "आरटीओ कोड", city: "शहर" },
+      data: [
+        { code: "RJ-01", city: "अजमेर" },
+        { code: "RJ-02", city: "अलवर" },
+        { code: "RJ-05", city: "भरतपुर" },
+        { code: "RJ-07", city: "बीकानेर" },
+        { code: "RJ-09", city: "झालावाड़" },
+        { code: "RJ-14", city: "जयपुर" },
+        { code: "RJ-17", city: "किशनगढ़" },
+        { code: "RJ-18", city: "जोधपुर" },
+        { code: "RJ-19", city: "कोटा" },
+        { code: "RJ-20", city: "सीकर" },
+        { code: "RJ-21", city: "बूंदी" },
+        { code: "RJ-22", city: "बांसवाड़ा" },
+        { code: "RJ-23", city: "दौसा" },
+        { code: "RJ-24", city: "बारां" },
+        { code: "RJ-25", city: "धौलपुर" },
+        { code: "RJ-27", city: "उदयपुर" },
+        { code: "RJ-29", city: "नागौर" },
+        { code: "RJ-32", city: "जैसलमेर" },
+        { code: "RJ-34", city: "हनुमानगढ़" },
+        { code: "RJ-36", city: "चित्तौड़गढ़" },
+      ],
+    },
+    testimonials: {
+      title: "प्रशंसापत्र",
+      list: [
+        {
+          name: "राहुल शर्मा",
+          text: "एनओसी 3 दिनों में मिला, स्पष्ट अपडेट और बिना छुपे शुल्क।",
+        },
+        {
+          name: "प्रिया सिंह",
+          text: "लाइसेंस नवीनीकरण सहजता से हुआ, टीम बहुत पेशेवर है।",
+        },
+        {
+          name: "अमित वर्मा",
+          text: "परमिट नवीनीकरण बिना परेशानी के, हर चरण समझाया।",
+        },
+        {
+          name: "नेहा गुप्ता",
+          text: "कर क्लियरेंस जल्दी हो गया, सहायता तुरंत मिली।",
+        },
+        {
+          name: "संदीप मेहता",
+          text: "स्वामित्व हस्तांतरण समय से पहले पूरा हुआ, भरोसेमंद टीम।",
+        },
+      ],
+    },
+    contact: {
+      title: "संपर्क करें",
+      form: {
+        name: "नाम",
+        email: "ईमेल",
+        phone: "फ़ोन",
+        service: "सेवा चुनें",
+        message: "संदेश",
+        submit: "संदेश भेजें",
+        success: "धन्यवाद! हम शीघ्र ही आपसे संपर्क करेंगे।",
+        error: "संदेश भेजने में विफल, कृपया पुनः प्रयास करें।",
+        errors: {
+          required: "यह फ़ील्ड अनिवार्य है",
+          email: "कृपया मान्य ईमेल दर्ज करें",
+          phone: "10 अंकों का मान्य फ़ोन नंबर दर्ज करें",
+        },
+      },
+      address: "जोधपुर, राजस्थान",
+      addressLabel: "पता",
+      phoneLabel: "कॉल",
+      whatsappLabel: "व्हाट्सऐप",
+      emailLabel: "ईमेल",
+      phoneNumber: "+91 12345 67890",
+      whatsappNumber: "+91 12345 67890",
+      email: "contact@rtoagent.in",
+    },
+    footer: {
+      rights: "सभी अधिकार सुरक्षित।",
+    },
+  },
+};
