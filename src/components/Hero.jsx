@@ -85,7 +85,10 @@ function Hero() {
         <div className="absolute -left-6 -top-6 h-24 w-24 rounded-full bg-orange-100 blur-2xl" />
         <div className="absolute -right-6 bottom-10 h-24 w-24 rounded-full bg-blue-100 blur-2xl" />
         <div className="relative overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-soft dark:border-slate-700 dark:bg-slate-800">
-          <div className="aspect-4/3 bg-[linear-gradient(135deg,#1e40af_0%,#2563eb_50%,#f97316_100%)] opacity-90" />
+          <div
+            className="aspect-4/3 bg-cover bg-center opacity-90 transition-opacity duration-500"
+            style={{ backgroundImage: "url('/fort.jpg')" }}
+          />
           <div className="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-slate-900/70 via-slate-900/10 to-transparent p-6 text-white">
             <p className="text-sm uppercase tracking-[0.3em] text-blue-100">
               {t.hero.trustBadge}

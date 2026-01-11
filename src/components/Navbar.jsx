@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaPhoneAlt, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -8,6 +8,7 @@ import { useLanguage } from "../context/LanguageContext";
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const navRef = useRef(null);
   const { t } = useLanguage();
 
   const scrolledClasses = scrolled
@@ -19,6 +20,25 @@ function Navbar() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (!open) return undefined;
+    const handleClickOutside = (e) => {
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside, {
+      passive: true,
+    });
+    document.addEventListener("touchstart", handleClickOutside, {
+      passive: true,
+    });
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, [open]);
 
   const links = [
     { href: "#home", label: t.nav.home },
@@ -36,7 +56,10 @@ function Navbar() {
       transition={{ duration: 0.4 }}
       className={`fixed top-0 z-50 w-full transition-colors duration-300 ${scrolledClasses}`}
     >
-      <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 transition dark:text-slate-100">
+      <div
+        ref={navRef}
+        className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 transition dark:text-slate-100"
+      >
         <a
           href="#home"
           className="text-lg md:text-xl font-extrabold text-blue-700 tracking-tight dark:text-blue-300"
