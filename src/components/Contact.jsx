@@ -65,7 +65,7 @@ function Contact() {
   ];
 
   return (
-    <section className="relative mx-auto max-w-6xl overflow-hidden px-4">
+    <section className="relative p-3 rounded-2xl mx-auto max-w-6xl overflow-hidden px-4">
       <img
         src={fortImg}
         alt=""
