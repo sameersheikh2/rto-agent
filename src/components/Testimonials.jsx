@@ -20,7 +20,7 @@ function Testimonials() {
         <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-8 bg-linear-to-r from-white via-white/50 to-transparent dark:from-slate-950 dark:via-slate-950/12" />
         <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-8 bg-linear-to-l from-white via-white/50 to-transparent dark:from-slate-950 dark:via-slate-950/12" />
         <div
-          className="marquee-track gap-4 pr-4"
+          className="marquee-track gap-4 py-4"
           style={{ "--marquee-duration": `${durationSeconds}s` }}
         >
           {marqueeItems.map((item, idx) => (

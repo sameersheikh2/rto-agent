@@ -12,7 +12,7 @@ function Navbar() {
   const { t } = useLanguage();
 
   const scrolledClasses = scrolled
-    ? "backdrop-blur-lg bg-white/80 dark:bg-slate-900/80 shadow-soft"
+    ? "backdrop-blur-lg bg-white/85 dark:bg-slate-900/85 shadow-soft"
     : "bg-transparent";
 
   useEffect(() => {
@@ -58,7 +58,7 @@ function Navbar() {
     >
       <div
         ref={navRef}
-        className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3 transition dark:text-slate-100"
+        className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 transition dark:text-slate-100"
       >
         <a
           href="#home"
@@ -85,22 +85,20 @@ function Navbar() {
           <div className="hidden items-center gap-2 md:flex">
             <a
               href={`tel:${t.contact.phoneNumber.replace(/\s+/g, "")}`}
-              className="flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-700 shadow-sm hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-md transition dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-md transition dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
             >
-              <FaPhoneAlt className="text-blue-600" />
-              {t.nav.call}
+              <FaPhoneAlt className="text-lg text-blue-600" />
             </a>
             <a
               href={`https://wa.me/${t.contact.whatsappNumber.replace(
                 /\s+|\+/g,
                 ""
               )}`}
-              className="flex items-center gap-2 rounded-full bg-green-500 px-3 py-2 text-xs font-semibold text-white shadow-sm hover:-translate-y-0.5 hover:shadow-md transition"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-green-500 text-white shadow-sm hover:-translate-y-0.5 hover:shadow-md transition"
               target="_blank"
               rel="noreferrer"
             >
-              <FaWhatsapp />
-              {t.nav.whatsapp}
+              <FaWhatsapp className="text-lg" />
             </a>
           </div>
           <button
